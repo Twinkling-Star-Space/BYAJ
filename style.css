@@ -85,3 +85,23 @@ body {
     #calc2{
       margin-left:11.5pc;
     }
+
+
+    @media (max-width: 768px) {
+  body {
+    flex-direction: column;   /* stack vertically */
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .container, .container2 {
+    margin: 10px 0;          /* stack neatly */
+    width: 90%;              /* full width on small screens */
+    max-width: none;
+  }
+
+  #calc2 {
+    margin-left: 0;          /* center reset button on mobile */
+    margin-top: 10px;
+  }
+}
