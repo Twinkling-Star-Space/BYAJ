@@ -60,5 +60,5 @@ function resetCalc() {
     document.getElementById("years").value = "";
     document.getElementById("days").value = "";
     document.getElementById("months").value = "";
-    document.getElementById("amount").innerText = "first enter";
+    document.getElementById("amount").innerText = "--------------";
 }
