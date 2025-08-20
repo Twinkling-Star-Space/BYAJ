@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BYAJ Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js">
+
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>BYAJ Calculator</h1>
+    
+    <div class="form-group">
+      <label for="p">Principal:</label>
+      <input type="number" id="p" placeholder="Enter principal amount">
+    </div>
+
+    <div class="form-group">
+      <label for="i">Interest rate (%):</label>
+      <input type="number" id="i" placeholder="Enter interest rate">
+    </div>
+
+    <div class="form-group">
+      <label for="d1">Date of Given:</label>
+      <input type="date" id="d1">
+    </div>
+
+    <div class="form-group">
+      <label for="d2">Date of Submission:</label>
+      <input type="date" id="d2">
+      
+    </div>
+
+    <div>
+      <button id="calc" onclick="calculate()">CALC</button>
+      <button id="calc2" onclick="resetCalc()">RESET</button>
+    </div>
+
+  </div>
+
+  <div class="container2">
+    
+    <div class="result">
+      TOTAL AMOUNT: <span id="amount">--------------</span> <br>
+      TOTAL INTEREST: <span id ="interest">--------------</span> <br>
+      TOTAL YEARS: <span id = "years">--------------</span> <br>
+      TOTAL MONTHS:<span id = "months">--------------</span> <br>
+      TOTAL DAYS:<span id = "days">--------------</span>
+    </div>
+
+  </div>
+</body>
+</html>
